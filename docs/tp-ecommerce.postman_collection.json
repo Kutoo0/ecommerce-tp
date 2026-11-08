@@ -1,0 +1,40 @@
+{
+  "info": {
+    "_postman_id": "8e8ac9b9-b2ff-441c-9339-e8edf65bdfe6",
+    "name": "tp-ecommerce",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "36005744"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/api/products/{id}",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"Laptop\",\"description\":\"15 pouces\",\"price\":999,\"quantity\":8}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/products/{id}",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products",
+            "{id}"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
